@@ -1,0 +1,165 @@
+.headpic {
+    width: 100vw;
+    height: 40vh;
+}
+
+nav {
+    display: inline-flex;
+    flex-direction: row;
+
+
+}
+
+table {
+    border: lightgrey 2px solid;
+    width: 100vw;
+    height: 10vh;
+    border-left: none;
+    border-right: none;
+
+}
+
+.menu {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: navy;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.specialmenu {
+    text-decoration: none;
+    color: navy;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+a:hover {
+    background: rgb(83, 158, 202);
+    /*rgb(16, 79, 104);*/
+    color: #ffe;
+
+}
+
+a:link {
+    color: navy;
+}
+
+a:visited {
+    color: #9c2274;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+DIV {
+    width: 105px;
+    margin: 20px;
+    padding: 3px;
+    border: 2px solid lightgrey;
+    background: lightgrey;
+    display: inline-block;
+}
+
+#steps {
+    width: 100%;
+    background-color: white;
+    border: 2px solid white;
+    display: block;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+blockquote {
+    margin: 0;
+    background: #FFF4ED;
+    padding: 40px;
+    color: #3F484D;
+    position: relative;
+    font-family: 'Lobster', Tahoma, Georgia, serif;
+    text-align: center;
+}
+
+blockquote:before,
+blockquote:after {
+    font-size: 50px;
+    color: #69c6f8;
+    position: absolute;
+    height: 2px;
+    left: 40px;
+    right: 40px;
+    line-height: .5;
+    background: linear-gradient(to right, #3CA1D9 45%, transparent 45%, transparent), linear-gradient(to right, transparent, transparent 55%, #3CA1D9 55%);
+    font-family: serif;
+}
+
+blockquote:before {
+    content: "\201C";
+    /*открывающая кавычка из юникода*/
+    top: 30px;
+}
+
+blockquote:after {
+    content: "\201D";
+    /*закрывающая кавычка из юникода*/
+    bottom: 30px;
+}
+
+blockquote p {
+    font-size: 20px;
+    color: black;
+
+    /*color: black !important;
+/*пришлось применить !important, чтобы повысить приоритет черного цвета шрифта в контейнере p, т.к. он окрасился в синий цвет как псевдокласс p:first-child - содержимое второго контейнера p*/
+}
+
+#quote {
+    color: black;
+    font-family: 'Lobster', Tahoma, Georgia, serif;
+}
+
+blockquote footer {
+    margin-bottom: 1em;
+}
+
+blockquote cite {
+    font-style: normal;
+}
+
+p:first-child {
+    color: blue;
+    display: block;
+    padding: 3px;
+}
+
+p:last-child {
+    color: blueviolet;
+    display: block;
+    padding: 3px;
+}
+
+p:nth-child(2) {
+    color: green;
+    display: block;
+    padding: 3px;
+}
+
+p:nth-child(3) {
+    color: #900020;
+    display: block;
+    padding: 3px;
+}
+
+p:nth-child(4) {
+    color: orange;
+    display: block;
+    padding: 3px;
+}
